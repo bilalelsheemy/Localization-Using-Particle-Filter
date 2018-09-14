@@ -10,7 +10,7 @@
 
 class Map {
 public:
-	
+
 	struct single_landmark_s{
 
 		int id_i ; // Landmark ID
@@ -19,7 +19,7 @@ public:
 	};
 
 	std::vector<single_landmark_s> landmark_list ; // List of landmarks in the map
-
+	//std::vector<single_landmark_s> landmark_list_range ; // List of landmarks within sensor range in the map
 };
 
 
